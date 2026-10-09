@@ -58,5 +58,5 @@ plot(t/3600, E0*ones(size(t)), ...
 xlabel('Time (hours)')
 ylabel('Specific orbital energy (J/kg)')
 title('Task 1.2: Specific Orbital Energy')
-legend('Euler energy', 'Exact constant energy',kioinm'Location', 'best')
+legend('Euler energy', 'Exact constant energy','Location', 'best')
 grid on
