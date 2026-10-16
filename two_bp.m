@@ -4,7 +4,7 @@
 %%
 
 function xdot = two_bp(t, x)
-
+    
     mu = 3.986 * 10^14; % m^3/s^2
 
     position = x(1:3);
